@@ -11,6 +11,7 @@ main{
 
 section{
     padding-left: 10px;
+    
 }
 .section-img{
     padding-top: 1rem;
@@ -67,15 +68,19 @@ section{
     width: 100%;
     background-color: var(--primary-color);
     color: white;
-    padding: 0.5rem;
+    padding: 0.2rem;
 }
 
 .nav-brand{
     font-weight: bold;
+    position: relative;
+    top: 20px;
 }
 
 .nav-pills{
     text-align: right;
+    position: relative;
+    bottom: 10px;
 }
 
 .navigation .link{
@@ -85,9 +90,9 @@ section{
 footer{
     background-color: var(--primary-color);
     color: white;
-    padding: 0.5rem;
+    padding: 0.5rem; 
     margin-top: 1rem;
-    position: fixed;
+    /* position: fixed;
     bottom: 0px;
-    width: 100%;
+    width: 100%; */
 }
